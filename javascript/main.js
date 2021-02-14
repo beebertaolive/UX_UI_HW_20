@@ -11,6 +11,18 @@ $(document).ready(function(){
 
         }
     )
+    
+    $(".collapse").collapse(
+        function(){
+            $(".collapse").collapse;
+        }
+    )
+
+
+
+
+
+
 
 
 

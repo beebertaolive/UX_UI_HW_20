@@ -6,36 +6,47 @@ header {
     padding-top: 2vh;
     padding-right: 5vw;
     padding-bottom: 2vh;
-    outline: red solid 1px;
+    
 }
 
-ul {
+li {
     font-family: 'Audiowide', cursive;
     color: #171C26;
     font-size: 20px;
     
 }
-.logo {
-    width: 20vw;
+/*a {
+    width: 10vw;
     padding-left: 5vw;
     padding-right: 5vw;
-}
+}*/
 
 h1 {
     font-family: 'Audiowide', cursive;
     color: #171C26;
     text-align: center;
-    padding-left: 2vw;
-    padding-top: 2vh;
-    padding-right: 2vw;
-    padding-bottom: 2vh;
+    padding: 0rem 2rem 1rem 3rem;
 }
 .subNav {
     font-family: 'Audiowide', cursive;
     color: #171C26;
     font-size: 18px;
 }
-.slide1 {
-   width: 600px
-   height: 260px;
+.introduction {
+    padding: 0rem 2rem 1rem 3rem;   
+    margin: 0rem 2rem 1rem 3rem; 
 }
+.content_left {
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    width: 30rem;
+}
+.content_right {
+    display: flex;
+    align-items: top;
+    justify-content: right;
+    width: 45rem;
+}
+
+
