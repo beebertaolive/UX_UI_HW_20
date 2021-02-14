@@ -1,0 +1,41 @@
+body {
+    background-color: #F2F2F2;
+}
+header {
+    padding-left: 5vw;
+    padding-top: 2vh;
+    padding-right: 5vw;
+    padding-bottom: 2vh;
+    outline: red solid 1px;
+}
+
+ul {
+    font-family: 'Audiowide', cursive;
+    color: #171C26;
+    font-size: 20px;
+    
+}
+.logo {
+    width: 20vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+h1 {
+    font-family: 'Audiowide', cursive;
+    color: #171C26;
+    text-align: center;
+    padding-left: 2vw;
+    padding-top: 2vh;
+    padding-right: 2vw;
+    padding-bottom: 2vh;
+}
+.subNav {
+    font-family: 'Audiowide', cursive;
+    color: #171C26;
+    font-size: 18px;
+}
+.slide1 {
+   width: 600px
+   height: 260px;
+}

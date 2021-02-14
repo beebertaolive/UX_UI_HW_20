@@ -1,5 +1,5 @@
-// alert('You successfully linked your JavaScript file!');
-// console.log("Congrats!");
+//alert('You successfully linked your JavaScript file!');
+//console.log("Congrats!");
 /* jan 28 - tutor - hw 19 */
 $(document).ready(function(){
     $(".projects").hover(
