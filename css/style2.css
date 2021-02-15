@@ -6,20 +6,18 @@ header {
     padding-top: 2vh;
     padding-right: 5vw;
     padding-bottom: 2vh;
-    
 }
 
-li {
+.nav {
     font-family: 'Audiowide', cursive;
     color: #171C26;
-    font-size: 20px;
+    font-size: 18px;
     
 }
-/*a {
-    width: 10vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-}*/
+.logo {
+    width: 9vw;
+    margin-top: 100vh;
+}
 
 h1 {
     font-family: 'Audiowide', cursive;
@@ -30,7 +28,8 @@ h1 {
 .subNav {
     font-family: 'Audiowide', cursive;
     color: #171C26;
-    font-size: 18px;
+    font-size: 14px;
+    padding: 1rem 5rem 1rem 2rem;
 }
 .introduction {
     padding: 0rem 2rem 1rem 3rem;   
