@@ -39,12 +39,12 @@ body {
     color: #F2F2F2;
     font-size: 30px;
 
-   }
+}
 
 .fa-linkedin {
-       color: white;
+    color: white;
        
-    }
+}
 
 h1 {
     font-family: 'Audiowide', cursive;
@@ -91,15 +91,14 @@ p {
     padding: 1rem 5rem 1rem 2rem;
     
 }
-.researchTitle {
-    margin-left: 5rem;
+.sectionTitle {
+    margin-left: 6rem;
 }
-.card {
+/*.card {
     margin: 1rem 5rem 1rem 5rem;
-}
+}*/
 .introduction {
-      
-    margin: 0rem 2rem 1rem 3rem; 
+    margin: 1rem 5rem 1rem 5rem; 
 }
 .content_left {
     display: flex;
@@ -120,4 +119,9 @@ p {
     display: block;
     justify-content: center;
 }
-
+.card-deck {
+    margin: 1rem 5rem 1rem 5rem;
+}
+.ideation {
+    margin: 1rem 5rem 1rem 5rem;   
+}
