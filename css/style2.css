@@ -1,33 +1,73 @@
 body {
     background-color: #F2F2F2;
 }
-header {
-    padding-left: 5vw;
-    padding-top: 2vh;
-    padding-right: 5vw;
-    padding-bottom: 2vh;
+/*header {
+    margin-left: 5vw;
+    margin-top: 2vh;
+    margin-right: 5vw;
+}*/
+.sticky {
+    /*position: fixed;
+    top: 0;
+    width: 100%;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    background-color: #2D3359;
 }
+}
+.mainNav{
 
+}
 .nav {
+    margin-top: 1rem;
+    text-align: center;
+    align-items: baseline;
+}
+.navText {
     font-family: 'Audiowide', cursive;
-    color: #171C26;
-    font-size: 18px;
-    
+    color: #F2F2F2;
+    font-size: 16px;
+}
+.nav-link:hover {
+    text-shadow: 2px 2px 4px #2D3359;
 }
 .logo {
+    font-family: 'Audiowide', cursive;
+    color: #F2F2F2;
+    font-size: 30px;
+    /*padding-right: 40rem;
     width: 9vw;
     margin-top: 100vh;
+    text-shadow: 2px 2px 4px #a9b9d1;*/
 }
 
+.content {
+    padding-top: 140px;
+  }
 h1 {
     font-family: 'Audiowide', cursive;
-    color: #171C26;
+    color: #2D3359;
     text-align: center;
     padding: 0rem 2rem 1rem 3rem;
 }
+h3 {
+    font-family: 'Audiowide', cursive;
+    color: #2D3359;
+    text-align: left;
+    padding: 0rem 2rem 1rem 0rem;
+}
+p {
+    font-family: 'Montserrat';
+    color: #2D3359;
+    text-align: left;
+    padding: 0rem 2rem 1rem 0rem;
+}
 .subNav {
     font-family: 'Audiowide', cursive;
-    color: #171C26;
+    color: #2D3359;
     font-size: 14px;
     padding: 1rem 5rem 1rem 2rem;
 }
@@ -47,5 +87,11 @@ h1 {
     justify-content: right;
     width: 45rem;
 }
-
+.research {
+    padding: 0rem 2rem 1rem 3rem;   
+    margin: 0rem 2rem 1rem 5rem; 
+}
+.graph {
+    width: 45rem;
+}
 
