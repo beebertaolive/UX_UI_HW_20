@@ -1,5 +1,6 @@
 body {
     background-color: #F2F2F2;
+    margin: 0 5 0 5;
 }
 /*header {
     margin-left: 5vw;
@@ -17,8 +18,7 @@ body {
     width: 100%;
     background-color: #2D3359;
 }
-}
-.mainNav{
+.mainNav {
 
 }
 .nav {
@@ -29,69 +29,95 @@ body {
 .navText {
     font-family: 'Audiowide', cursive;
     color: #F2F2F2;
-    font-size: 16px;
+    font-size: large;
 }
 .nav-link:hover {
-    text-shadow: 2px 2px 4px #2D3359;
+    text-shadow: 2px 2px 4px #ffffff;
 }
 .logo {
     font-family: 'Audiowide', cursive;
     color: #F2F2F2;
     font-size: 30px;
-    /*padding-right: 40rem;
-    width: 9vw;
-    margin-top: 100vh;
-    text-shadow: 2px 2px 4px #a9b9d1;*/
-}
 
-.content {
-    padding-top: 140px;
-  }
+   }
+
+.fa-linkedin {
+       color: white;
+       
+    }
+
 h1 {
     font-family: 'Audiowide', cursive;
+    font-size: xx-large;
     color: #2D3359;
     text-align: center;
-    padding: 0rem 2rem 1rem 3rem;
+    margin-top: 15vh;
+
+}
+
+h2 {
+    font-family: 'Audiowide', cursive;
+    font-size: x-large;
+    color: #2D3359;
+    text-align: left;
 }
 h3 {
     font-family: 'Audiowide', cursive;
+    font-size: large;
     color: #2D3359;
     text-align: left;
-    padding: 0rem 2rem 1rem 0rem;
+    
+}
+h5 {
+    font-family: "Montserrat", sans-serif ;
+    font-size: large;
+    font-weight: bold;
+    color: #2D3359;
+    text-align: left;
+    
 }
 p {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
     color: #2D3359;
     text-align: left;
-    padding: 0rem 2rem 1rem 0rem;
+
 }
 .subNav {
     font-family: 'Audiowide', cursive;
     color: #2D3359;
-    font-size: 14px;
+    background: #F2F2F2;
+    font-size: medium;
     padding: 1rem 5rem 1rem 2rem;
+    
+}
+.researchTitle {
+    margin-left: 5rem;
+}
+.card {
+    margin: 1rem 5rem 1rem 5rem;
 }
 .introduction {
-    padding: 0rem 2rem 1rem 3rem;   
+      
     margin: 0rem 2rem 1rem 3rem; 
 }
 .content_left {
     display: flex;
     align-items: top;
-    justify-content: left;
-    width: 30rem;
+    justify-content: start;
+    width: 40vw;
+    
 }
 .content_right {
     display: flex;
     align-items: top;
-    justify-content: right;
-    width: 45rem;
+    justify-content: end;
+    width: 40vw;
+    
 }
-.research {
-    padding: 0rem 2rem 1rem 3rem;   
-    margin: 0rem 2rem 1rem 5rem; 
-}
-.graph {
-    width: 45rem;
+.jumbotron {
+    margin: 1rem 5rem 1rem 5rem;
+    display: block;
+    justify-content: center;
 }
 
