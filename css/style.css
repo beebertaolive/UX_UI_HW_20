@@ -1,231 +1,125 @@
-
 body {
-    max-width: 1280px;
     background-color: #F2F2F2;
+    margin: 0vh 10vw 0vh 10vw;
 }
-
-.inline-block {
-display: flex;
-align-items: flex-end;
-
-
+/*header {
+    margin-left: 5vw;
+    margin-top: 2vh;
+    margin-right: 5vw;
 }*/
-.logo {
-    width: 20vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    
-    }
-
-/*nav {
+.sticky {
+    /*position: fixed;
+    top: 0;
+    width: 100%;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
     width: 100%;
-    padding: 1%;
-    
-    } 
-    */
-ul {
-    display: flex;
-    justify-content: flex-end;
-    font-family: 'Audiowide', cursive;
-    color: #171C26;
-    
-    
-}
-./*bgImg {
-    padding: 5vw;
-    background-size: cover;
-    background-repeat: no-repeat;
-    outline: 2px solid blue;
-}
-*/
-.heroImg {
-    height: 600px;
-    padding: 10px;
-   
-    }
-
-.overlay {
-    height: 600px;
-    width: 100%;
-    }
-
-.content {
-    width: 500px;
-    margin: 0 auto;
-    
-    }
-footer {
-    color:#F2F2F2;
     background-color: #2D3359;
-    padding: 1rem 5rem 1rem 5rem;
- 
+}
+.mainNav {
+
+}
+.nav {
+    margin-top: 1rem;
+    text-align: center;
+    align-items: baseline;
+}
+.navText {
+    font-family: 'Audiowide', cursive;
+    color: #F2F2F2;
+    font-size: large;
+}
+.nav-link:hover {
+    text-shadow: 2px 2px 4px #ffffff;
+}
+.logo {
+    font-family: 'Audiowide', cursive;
+    color: #F2F2F2;
+    font-size: 30px;
+
 }
 
-#bertaPhoto {
-    width: 45%;
-    height: 45%;
+.fa-linkedin {
+    color: white;
+       
+}
+
+h1 {
+    font-family: 'Audiowide', cursive;
+    font-size: xx-large;
+    color: #2D3359;
+    text-align: center;
+    margin-top: 15vh;
+
+}
+
+h2 {
+    font-family: 'Audiowide', cursive;
+    font-size: x-large;
+    color: #2D3359;
+    text-align: left;
+}
+h3 {
+    font-family: 'Audiowide', cursive;
+    font-size: large;
+    color: #2D3359;
+    text-align: left;
     
 }
-
-li {
-    display:flex;
-    justify-content: flex-end;
-    padding: 2%;
-    
+h5 {
+    font-family: "Montserrat", sans-serif ;
+    font-size: large;
+    font-weight: bold;
+    color: #2D3359;
+    text-align: left;
     
 }
-
-.ulFooter {
-    display: inline-block;
-    vertical-align: top;
-    padding: 1%;
-    outline: 1px solid red;
-}
-/*    JAN 15 2021 HW 18     */
-
-p,
-button,
-h1,
-h2,
-h3,
-h4  {
+p {
     font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: #2D3359;
+    text-align: left;
+
+}
+.subNav {
+    font-family: 'Audiowide', cursive;
+    color: #2D3359;
+    background: #F2F2F2;
+    font-size: medium;
+    padding: 1rem 5rem 1rem 5rem;
     
 }
+.sectionTitle {
+    margin-left: 6rem;
+}
 
-.flexContainer {
+.introduction {
+    margin: 1vh 5vw 8vh 5vw; 
+}
+.content_left {
     display: flex;
-    margin: 0 auto;
-    width: 90%;
-   
+    align-items: top;
+    justify-content: start;
+    width: 40vw;
+    
 }
-
-.skill1,
-.skill2,
-.skill3 {
-    width: 33%;
-    margin: 1%;
-    padding: 3%;
-   
-}
-.projectsGrid {
+.content_right {
     display: flex;
-    margin: 0 auto;
-    width: 90%;
+    align-items: top;
+    justify-content: end;
+    width: 40vw;
     
+}
+.jumbotron {
+    margin: 1vh 5vw 5vh 5vw;
+    display: block;
+    justify-content: center;
 }
 
-.skill1,
-.skill2,
-.skill3 {
-    width: 33%;
-    margin: 1%;
-    padding: 3%;
-   
-}
-
-.mySkills{
-    margin: 5vw;
-    
-}
-
-.myProjects {
-    margin: 5vw;
-    
-}
-.projectsGrid {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: 
-    "a"
-    "b"
-    "c";
-    
-}
-.ex1,
-.ex2,
-.ex3 {
-    display: grid;
-    grid-template-areas:
-    "a b";
-    grid-column: 1fr;
-    
-}
-.leftImg,
-.leftImg2,
-.leftImg3 {
-    grid-row-start: a-start;
-    grid-column: 1fr;
-    
-}
-.rightContent {
-    grid-row-end: a-end;
-    grid-column: 1fr;
-   
-}
-.img {
-    width: 30vw;
-}
-.skillImg {
-    width: 10vw;
-    align-items: center;
-}
-/*  jan 19 tutor  */
-.linkedinIcon {
-    cursor: pointer;
-}
-/* jan 25 solo hw 18 */
-@media only screen and (max-width: 600px) {
-    .flexContainer {
-        display: flex;
-        flex-direction: column;
-    }
-    .skill1 {
-        width: 100%;
-    }
-    .skill2 {
-        width: 100%;
-    }
-    .skill3 {
-        width: 100%;
-    }
-    .ex1 {
-        display: grid;
-        grid-template-rows: repeat(1, 1fr);
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-areas: 
-        "leftImg"
-        "rightContent";
-        
-    }
-    .ex2 {
-        display: grid;
-        grid-template-rows: repeat(1, 1fr);
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-areas: 
-        "leftImg2"
-        "rightContent2";
-        
-    }
-    .ex3 {
-        display: grid;
-        grid-template-rows: repeat(1, 1fr);
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-areas: 
-        "leftImg3"
-        "rightContent3";
-        
-    }
-
-}
-/* jan 28 - tutor - hw 19 */
-.dropdown {
-    list-style: none
-}
-.dropdown-menu {
-    display: none;
-    list-style: none;
-    background-color: white;
-    outline: 1px solid red;
+.ideation,
+.carImg,
+.card-deck {
+    margin: 1vh 5vw 8vh 5vw;   
 }
