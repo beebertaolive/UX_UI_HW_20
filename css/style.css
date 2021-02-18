@@ -18,31 +18,38 @@ body {
     width: 100%;
     background-color: #2D3359;
 }
-.mainNav {
+.inline-block {
+    display: inline-block;
 
 }
 .nav {
-    margin-top: 1rem;
-    text-align: center;
-    align-items: baseline;
+    width: 79vw;
+    float: right;
+    margin-top: 1vh;
+    /* text-align: center; */
+    /* align-items: baseline; */
 }
 .navText {
     font-family: 'Audiowide', cursive;
     color: #F2F2F2;
-    font-size: large;
+    /* font-size: large; */
 }
 .nav-link:hover {
-    text-shadow: 2px 2px 4px #ffffff;
+    /* text-shadow: 2px 2px 4px #ffffff; */
+    /* border-bottom: 0.5px solid white; */
+    text-decoration: underline;
+    color: white;
 }
 .logo {
     font-family: 'Audiowide', cursive;
     color: #F2F2F2;
     font-size: 30px;
-
+    width: 20vw;    
 }
 
 .fa-linkedin {
     color: white;
+    margin-top: -2.5vh !important;
        
 }
 
@@ -122,4 +129,7 @@ p {
 .carImg,
 .card-deck {
     margin: 1vh 5vw 8vh 5vw;   
+}
+.carousel-control-prev-icon {
+    color: blue important !important;
 }
